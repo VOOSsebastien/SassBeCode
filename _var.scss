@@ -1,0 +1,13 @@
+$couleur-moche:brown;
+$rougeFort:rgb(109, 12, 98);
+$jolibleu:turquoise;
+%message-shared {
+    border: 5px dotted rgb(242, 8, 8);
+    /*padding: 10px;*/
+  }
+  
+$GenPadding :5em;
+@mixin box-shadow($couleurade: greenyellow){
+    color:$couleurade;
+}
+  
