@@ -3,12 +3,8 @@
 
 article{
     h2{
-        background-color: red;
-    }
-    #selling-points{
-        color:blue;
-
-    }
+        background-color: red;  
+}
 }
 .messages{
     .success{
@@ -59,11 +55,25 @@ footer{
         padding:$GenPadding*2;
     }
 }
+/*-------------------------------------------------------------------------
+EXTRA
+--------------------------------------------------------------------------*/
 
 
 
-
-
+    @for $i from 1 through 6 
+    {
+        .advantages{
+        li:nth-child(#{$i}) 
+        {
+          background-color: darken(blue, $i * 5%);
+        }
+        li:nth-child(#{$i}) 
+        {
+          color: lighten(red, $i * 10%);
+        }
+    }
+    }
 
 body {
     font: 100% "Space Mono", monospace;
@@ -76,9 +86,7 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    /*padding: 0 1em;*/
-}
+
 
 article {
     display: flex;

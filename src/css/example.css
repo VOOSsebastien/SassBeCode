@@ -7,10 +7,6 @@ article h2 {
   background-color: red;
 }
 
-article #selling-points {
-  color: blue;
-}
-
 .messages .success {
   font-family: Helvetica;
   color: turquoise;
@@ -63,6 +59,57 @@ footer h3 {
   padding: 10em;
 }
 
+/*-------------------------------------------------------------------------
+EXTRA
+--------------------------------------------------------------------------*/
+.advantages li:nth-child(1) {
+  background-color: #0000e6;
+}
+
+.advantages li:nth-child(1) {
+  color: #ff3333;
+}
+
+.advantages li:nth-child(2) {
+  background-color: #0000cc;
+}
+
+.advantages li:nth-child(2) {
+  color: #ff6666;
+}
+
+.advantages li:nth-child(3) {
+  background-color: #0000b3;
+}
+
+.advantages li:nth-child(3) {
+  color: #ff9999;
+}
+
+.advantages li:nth-child(4) {
+  background-color: #000099;
+}
+
+.advantages li:nth-child(4) {
+  color: #ffcccc;
+}
+
+.advantages li:nth-child(5) {
+  background-color: navy;
+}
+
+.advantages li:nth-child(5) {
+  color: white;
+}
+
+.advantages li:nth-child(6) {
+  background-color: #000066;
+}
+
+.advantages li:nth-child(6) {
+  color: white;
+}
+
 body {
   font: 100% "Space Mono", monospace;
   color: #6b717f;
@@ -72,10 +119,6 @@ body {
     */
   background-color: #fff;
   overflow-x: hidden;
-}
-
-main {
-  /*padding: 0 1em;*/
 }
 
 article {
